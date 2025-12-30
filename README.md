@@ -154,6 +154,14 @@ aws ec2 describe-route-tables
 
 ---
 
+실습이 끝나면 반드시 생성한 리소스 삭제하기
+
+```bash
+terraform apply -auto-approve
+```
+
+---
+
 ## 🧾 Conclusion
 
 **운영 가능한 Multi-Region Private Networking Architecture** 를
@@ -161,11 +169,3 @@ Terraform 기반으로 재현 가능하게 설계하고 검증한 레퍼런스�
 
 SSH 없이도 안정적인 운영이 가능하다는 것을 증명하며,
 보안, 실용성, 운영성을 균형 있게 고려한 구조다.
-
----
-
-실습이 끝나면 반드시 생성한 리소스 삭제하기
-
-```bash
-terraform apply -auto-approve
-```
